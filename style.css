@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: medium;
+  line-height: normal;
+}
+
+img {
+  width: 100px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+h1 {
+  color:brown ;
+  font-size: x-large;
+  line-height: normal;
+}
+
+h2 {
+  color: #e9c46a;
+  font-size: x-large;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: #0077b6;
+  border-radius: 5px;
+  padding: 10px;
+  font-size:large;
+}
+
+#btn {
+  margin-top: 50px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black
+}
+
+.card {
+  background: whitesmoke;
+  border-radius: 5px ;
+  box-shadow:0 10px 30px rgba(0,0,0,.1);
+  /* width: 700px; */
+  height: auto;
+  /* margin: 0 auto; */
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin-bottom: 5px;
+}
+
+.container {
+  width: 700px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#navigation > li > a {
+font-size: large;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
